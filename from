@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir GTPS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+      animation: fadeInBody 1.5s ease-in;
+    }
+
+    @keyframes fadeInBody {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .container {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+      animation: fadeInContainer 1.5s ease-in;
+    }
+
+    @keyframes fadeInContainer {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #00bfff;
+      color: white;
+      padding: 15px 30px;
+      margin: 20px 0;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 20px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 191, 255, 0.4);
+    }
+
+    a.button:hover {
+      background-color: #00ffff;
+      transform: scale(1.05);
+      box-shadow: 0 6px 15px rgba(0, 255, 255, 0.6);
+    }
+
+    .about {
+      margin-top: 40px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 16px;
+      line-height: 1.6;
+      transition: background-color 0.3s ease;
+    }
+
+    .about:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .about h2 {
+      margin-bottom: 10px;
+      font-size: 22px;
+      color: #00ffff;
+    }
+
+    .about a {
+      color: #00ffff;
+      text-decoration: underline;
+      transition: color 0.3s ease;
+    }
+
+    .about a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 GTPS Linktree</h1>
+    <a class="button" href="https://wa.me/6282335769274?text=Halo%20saya%20ingin%20promote%20GTPS%20saya.%0A%0A🔗%20Link%20Grup:%0A🌐%20Link%20VHost:%0A💬%20Link%20Discord:" target="_blank">🚀 Free Promote GTPS</a>
+
+    <!-- Tentang Saya -->
+    <div class="about">
+      <h2>👤 Tentang Saya</h2>
+      <p>Halo! Saya adalah conten creator GTPS yang ingin membantu komunitas berkembang. Skill saya dalam mengedit memang belum terlalu bagus, tapi saya berusaha semaksimal mungkin untuk membuat tampilan yang menarik dan fungsional.</p>
+      <p>Alasan saya memberikan layanan <strong>Free Promote GTPS</strong> adalah karena saya tahu betapa sulitnya mendapatkan perhatian di awal. Saya ingin membantu orang-orang yang baru mulai agar GTPS mereka bisa dikenal lebih luas tanpa harus bayar.</p>
+      <p>📱 WhatsApp saya: <a href="https://wa.me/6282335769274?text=Halo%20saya%20ingin%20promote%20GTPS%20saya.%0A%0A🔗%20Link%20Grup:%0A🌐%20Link%20VHost:%0A💬%20Link%20Discord:" target="_blank">Klik untuk Chat</a></p>
+    </div>
+  </div>
+</body>
+</html>
